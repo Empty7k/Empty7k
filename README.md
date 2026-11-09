@@ -3,7 +3,7 @@
 </div>
 <br>
 
-<img align="left" width="310" src="./lain.gif" alt="Lain Stare Into The Abyss" />
+<div><img align="left" width="305" src="./lain.gif" alt="Lain Stare Into The Abyss" /></div>
 
 ```yaml
 empty@Thinkpad-X13
@@ -28,6 +28,6 @@ Status: Connected to the Wired
 
 <div align="center">
   <samp>
-    [ <a href="https://www.linkedin.com/in/david-alex-souza-santos-32b44a195/">LinkedIn</a> ] :: [ <a href="https://github.com/Empty7k/empty-blog">empty-blog</a> ]
+    [ <a href="https://www.linkedin.com/in/david-alex-souza-santos-32b44a195/" target="_blank" rel="noopener noreferrer">LinkedIn</a> ] :: [ <a href="https://empty-blog-eight.vercel.app" target="_blank" rel="noopener noreferrer">empty-blog</a> ]
   </samp>
 </div>
