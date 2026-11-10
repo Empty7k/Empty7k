@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="390" viewBox="0 0 840 390" fill="none">
+  <style>
+    .mono {
+      font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', Menlo, Monaco, monospace;
+      font-size: 13.5px;
+    }
+    .tux {
+      font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', Menlo, Monaco, monospace;
+      font-size: 6.2px;
+      font-weight: 600;
+    }
+    .title {
+      font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', Menlo, Monaco, monospace;
+      font-size: 12px;
+      fill: #8b949e;
+    }
+    .green { fill: #7ee787; }
+    .green-b { fill: #7ee787; font-weight: 700; }
+    .blue { fill: #79c0ff; }
+    .blue-b { fill: #79c0ff; font-weight: 700; }
+    .white { fill: #e6edf3; }
+    .muted { fill: #8b949e; }
+  </style>
+
+  <!-- Terminal Window Background & Border -->
+  <rect x="0.5" y="0.5" width="839" height="389" rx="6" ry="6" fill="#000000" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Kitty / Linux Terminal Header Bar -->
+  <path d="M 1 6.5 A 5.5 5.5 0 0 1 6.5 1 L 833.5 1 A 5.5 5.5 0 0 1 839 6.5 L 839 34 L 1 34 Z" fill="#0a0d12"/>
+  <line x1="1" y1="34" x2="839" y2="34" stroke="#21262d" stroke-width="1"/>
+  <circle cx="20" cy="17" r="5.5" fill="#30363d"/>
+  <circle cx="38" cy="17" r="5.5" fill="#30363d"/>
+  <circle cx="56" cy="17" r="5.5" fill="#7ee787" fill-opacity="0.75"/>
+  <text x="420" y="21" text-anchor="middle" class="title">empty@Thinkpad-X13: ~ (kitty)</text>
+
+  <!-- Shell Command Prompt -->
+  <text x="28" y="60" class="mono"><tspan class="green-b">empty@Thinkpad-X13</tspan><tspan class="muted">:</tspan><tspan class="blue-b">~</tspan><tspan class="muted">$</tspan><tspan x="206" class="white">fastfetch</tspan></text>
+
+  <!-- Left Column: Detailed Linux Tux ASCII Art (Exact X Coordinates) -->
+  <g class="tux">
+    <text y="82.00"><tspan x="144.00" class="blue">.:</tspan><tspan x="151.50" class="green">xxxxxxxx</tspan><tspan x="181.50" class="blue">:.</tspan></text>
+    <text y="88.35"><tspan x="132.75" class="blue">.</tspan><tspan x="136.50" class="green">xxxxxxxxxxxxxxxx</tspan><tspan x="196.50" class="blue">.</tspan></text>
+    <text y="94.70"><tspan x="129.00" class="blue">:</tspan><tspan x="132.75" class="green">xxxxxxxxxxxxxxxxxxx</tspan><tspan x="204.00" class="blue">:.</tspan></text>
+    <text y="101.05"><tspan x="125.25" class="blue">.</tspan><tspan x="129.00" class="green">xxxxxxxxxxxxxxxxxxxxxxx</tspan><tspan x="215.25" class="blue">:</tspan></text>
+    <text y="107.40"><tspan x="121.50" class="blue">:</tspan><tspan x="125.25" class="green">xxxxxxxxxxxxxxxxxxxxxxxxx</tspan><tspan x="219.00" class="blue">:</tspan></text>
+    <text y="113.75"><tspan x="121.50" class="green">xxxxxxxxxxxxxxxxxxxxxxxxxxX</tspan><tspan x="222.75" class="blue">:</tspan></text>
+    <text y="120.10"><tspan x="121.50" class="green">xxx</tspan><tspan x="132.75" class="blue">:::</tspan><tspan x="144.00" class="green">xxxxxxxx</tspan><tspan x="174.00" class="blue">::::</tspan><tspan x="189.00" class="green">xxxxxxxxx</tspan><tspan x="222.75" class="blue">:</tspan></text>
+    <text y="126.45"><tspan x="117.75" class="blue">.</tspan><tspan x="121.50" class="green">xx</tspan><tspan x="129.00" class="blue">:</tspan><tspan x="144.00" class="blue">::</tspan><tspan x="151.50" class="green">xxxxx</tspan><tspan x="170.25" class="blue">:</tspan><tspan x="192.75" class="blue">:</tspan><tspan x="196.50" class="green">xxxxxxxx</tspan></text>
+    <text y="132.80"><tspan x="117.75" class="blue">:</tspan><tspan x="121.50" class="green">xx</tspan><tspan x="136.50" class="green">x</tspan><tspan x="140.25" class="blue">.</tspan><tspan x="151.50" class="green">xxxx</tspan><tspan x="166.50" class="blue">:</tspan><tspan x="177.75" class="green">xx</tspan><tspan x="185.25" class="blue">.</tspan><tspan x="196.50" class="green">xxxxxxxx</tspan></text>
+    <text y="139.15"><tspan x="117.75" class="blue">:</tspan><tspan x="121.50" class="green">xx</tspan><tspan x="132.75" class="green">xxx</tspan><tspan x="151.50" class="green">xxxx</tspan><tspan x="166.50" class="blue">:</tspan><tspan x="174.00" class="green">xxxx</tspan><tspan x="196.50" class="blue">:</tspan><tspan x="200.25" class="green">xxxxxxx</tspan></text>
+    <text y="145.50"><tspan x="117.75" class="blue">&#x27;</tspan><tspan x="121.50" class="green">xx</tspan><tspan x="132.75" class="blue">&#x27;</tspan><tspan x="136.50" class="green">xx</tspan><tspan x="151.50" class="green">xxxx</tspan><tspan x="166.50" class="blue">:.</tspan><tspan x="177.75" class="green">xx</tspan><tspan x="185.25" class="blue">&#x27;</tspan><tspan x="196.50" class="green">xxxxxxxx</tspan></text>
+    <text y="151.85"><tspan x="121.50" class="green">xx</tspan><tspan x="132.75" class="blue">::::::</tspan><tspan x="155.25" class="green">xx</tspan><tspan x="162.75" class="blue">:::::.</tspan><tspan x="196.50" class="green">xxxxxxxx</tspan></text>
+    <text y="158.20"><tspan x="121.50" class="green">xx</tspan><tspan x="129.00" class="blue">:::::.::::.:::::::</tspan><tspan x="196.50" class="green">xxxxxxxx</tspan></text>
+    <text y="164.55"><tspan x="121.50" class="blue">:</tspan><tspan x="125.25" class="green">x</tspan><tspan x="129.00" class="blue">&#x27;::::&#x27;::::&#x27;:::::&#x27;:</tspan><tspan x="196.50" class="green">xxxxxxxxx</tspan><tspan x="230.25" class="blue">.</tspan></text>
+    <text y="170.90"><tspan x="121.50" class="blue">:</tspan><tspan x="125.25" class="green">xx</tspan><tspan x="132.75" class="blue">.::::::::::::&#x27;</tspan><tspan x="196.50" class="green">xxxxxxxxxx</tspan></text>
+    <text y="177.25"><tspan x="121.50" class="blue">:</tspan><tspan x="125.25" class="green">xx</tspan><tspan x="132.75" class="blue">:</tspan><tspan x="140.25" class="blue">&#x27;::::::::&#x27;</tspan><tspan x="196.50" class="blue">:</tspan><tspan x="200.25" class="green">xxxxxxxxxx</tspan><tspan x="237.75" class="blue">.</tspan></text>
+    <text y="183.60"><tspan x="117.75" class="blue">.</tspan><tspan x="121.50" class="green">xx</tspan><tspan x="147.75" class="blue">&#x27;::::&#x27;</tspan><tspan x="200.25" class="blue">&#x27;</tspan><tspan x="204.00" class="green">xxxxxxxxxx</tspan><tspan x="241.50" class="blue">.</tspan></text>
+    <text y="189.95"><tspan x="110.25" class="blue">.</tspan><tspan x="114.00" class="green">xxxx</tspan><tspan x="207.75" class="blue">&#x27;</tspan><tspan x="211.50" class="green">xxxxxxxxx</tspan><tspan x="245.25" class="blue">.</tspan></text>
+    <text y="196.30"><tspan x="102.75" class="blue">.</tspan><tspan x="106.50" class="green">xxxx</tspan><tspan x="215.25" class="blue">&#x27;</tspan><tspan x="219.00" class="green">xxxxxxxxx</tspan><tspan x="252.75" class="blue">.</tspan></text>
+    <text y="202.65"><tspan x="95.25" class="blue">.</tspan><tspan x="99.00" class="green">xxxxx</tspan><tspan x="117.75" class="blue">:</tspan><tspan x="219.00" class="green">xxxxxxxxxx</tspan><tspan x="256.50" class="blue">.</tspan></text>
+    <text y="209.00"><tspan x="91.50" class="blue">.</tspan><tspan x="95.25" class="green">xxxxx</tspan><tspan x="114.00" class="blue">:&#x27;</tspan><tspan x="219.00" class="green">xxxxxxxxxxx</tspan><tspan x="260.25" class="blue">.</tspan></text>
+    <text y="215.35"><tspan x="87.75" class="blue">.</tspan><tspan x="91.50" class="green">xxxxxx</tspan><tspan x="114.00" class="blue">:::.</tspan><tspan x="170.25" class="blue">.</tspan><tspan x="200.25" class="blue">..:::_</tspan><tspan x="222.75" class="green">xxxxxxxxxxx</tspan><tspan x="264.00" class="blue">:.</tspan></text>
+    <text y="221.70"><tspan x="84.00" class="blue">.</tspan><tspan x="87.75" class="green">xxxxxxx</tspan><tspan x="114.00" class="blue">&#x27;&#x27;</tspan><tspan x="144.00" class="blue">&#x27;:::&#x27;&#x27;</tspan><tspan x="211.50" class="blue">&#x27;&#x27;::</tspan><tspan x="226.50" class="green">xxxxxxxxxxxx</tspan><tspan x="271.50" class="blue">.</tspan></text>
+    <text y="228.05"><tspan x="84.00" class="green">xxxxxx</tspan><tspan x="151.50" class="blue">:</tspan><tspan x="222.75" class="blue">&#x27;::</tspan><tspan x="234.00" class="green">xxxxxxxxxxxx</tspan></text>
+    <text y="234.40"><tspan x="80.25" class="blue">:</tspan><tspan x="84.00" class="green">xxxx</tspan><tspan x="99.00" class="blue">:&#x27;</tspan><tspan x="151.50" class="blue">:</tspan><tspan x="230.25" class="blue">&#x27;</tspan><tspan x="234.00" class="green">xxxxxxxxxxxx</tspan><tspan x="279.00" class="blue">:</tspan></text>
+    <text y="240.75"><tspan x="76.50" class="blue">.</tspan><tspan x="80.25" class="green">xxxxx</tspan><tspan x="151.50" class="blue">:</tspan><tspan x="234.00" class="blue">::</tspan><tspan x="241.50" class="green">xxxxxxxxxxxx</tspan></text>
+    <text y="247.10"><tspan x="76.50" class="green">xxxx</tspan><tspan x="91.50" class="blue">:&#x27;</tspan><tspan x="234.00" class="blue">::</tspan><tspan x="241.50" class="green">xxxxxxxxxxxx</tspan></text>
+    <text y="253.45"><tspan x="76.50" class="green">xxxx</tspan><tspan x="147.75" class="blue">.</tspan><tspan x="234.00" class="blue">::</tspan><tspan x="241.50" class="green">xxxxxxxxxxxx</tspan><tspan x="286.50" class="blue">.</tspan></text>
+    <text y="259.80"><tspan x="61.50" class="blue">.:</tspan><tspan x="69.00" class="green">xxxxxx</tspan><tspan x="147.75" class="blue">:</tspan><tspan x="234.00" class="blue">::</tspan><tspan x="241.50" class="green">xxxxxxxxxxxx</tspan><tspan x="286.50" class="blue">::</tspan></text>
+    <text y="266.15"><tspan x="61.50" class="green">xxxxxxxx</tspan><tspan x="147.75" class="blue">:</tspan><tspan x="234.00" class="blue">::</tspan><tspan x="241.50" class="green">xxxxxxxxxxxxx</tspan><tspan x="290.25" class="blue">:</tspan></text>
+    <text y="272.50"><tspan x="61.50" class="green">xxxxxxxx</tspan><tspan x="147.75" class="blue">:</tspan><tspan x="234.00" class="blue">::</tspan><tspan x="241.50" class="green">xxxxxxxxxxxxx</tspan><tspan x="290.25" class="blue">:</tspan></text>
+    <text y="278.85"><tspan x="61.50" class="blue">&#x27;:</tspan><tspan x="69.00" class="green">xxxxxx</tspan><tspan x="147.75" class="blue">&#x27;</tspan><tspan x="234.00" class="blue">::</tspan><tspan x="241.50" class="green">xxxxxxxxxxxx</tspan><tspan x="286.50" class="blue">:&#x27;</tspan></text>
+    <text y="285.20"><tspan x="69.00" class="blue">.:.</tspan><tspan x="84.00" class="green">xx</tspan><tspan x="91.50" class="blue">:.</tspan><tspan x="230.25" class="blue">.:</tspan><tspan x="237.75" class="green">xxxxxxxxxxxxx</tspan><tspan x="286.50" class="blue">&#x27;</tspan></text>
+    <text y="291.55"><tspan x="61.50" class="blue">::::::.&#x27;</tspan><tspan x="91.50" class="green">xx</tspan><tspan x="99.00" class="blue">:.</tspan><tspan x="151.50" class="blue">:</tspan><tspan x="222.75" class="blue">.::</tspan><tspan x="237.75" class="green">xxxxxxxxxxx</tspan><tspan x="279.00" class="blue">&#x27;:</tspan></text>
+    <text y="297.90"><tspan x="31.50" class="blue">.:::::::::::::::.&#x27;</tspan><tspan x="99.00" class="green">xxxx</tspan><tspan x="114.00" class="blue">.</tspan><tspan x="222.75" class="blue">::::&#x27;</tspan><tspan x="241.50" class="green">xxxxxxxx</tspan><tspan x="271.50" class="blue">&#x27;:::.</tspan></text>
+    <text y="304.25"><tspan x="31.50" class="blue">::::::::::::::::::.&#x27;</tspan><tspan x="106.50" class="green">xxxxx</tspan><tspan x="222.75" class="blue">:::::.&#x27;.</tspan><tspan x="252.75" class="green">xx</tspan><tspan x="260.25" class="blue">.&#x27;::::::.</tspan></text>
+    <text y="310.60"><tspan x="31.50" class="blue">::::::::::::::::::::.&#x27;</tspan><tspan x="114.00" class="green">xxxx</tspan><tspan x="129.00" class="blue">:.</tspan><tspan x="222.75" class="blue">:::::::.&#x27;&#x27;:::::::::</tspan></text>
+    <text y="316.95"><tspan x="31.50" class="blue">&#x27;:::::::::::::::::::::.&#x27;</tspan><tspan x="121.50" class="green">xx</tspan><tspan x="129.00" class="blue">:&#x27;</tspan><tspan x="215.25" class="blue">.&#x27;::::::::::::::::::::..</tspan></text>
+    <text y="323.30"><tspan x="39.00" class="blue">:::::::::::::::::::::.&#x27;</tspan><tspan x="125.25" class="green">xx</tspan><tspan x="207.75" class="blue">.::</tspan><tspan x="222.75" class="blue">:::::::::::::::::::::::</tspan></text>
+    <text y="329.65"><tspan x="31.50" class="blue">.:::::::::::::::::::::::.</tspan><tspan x="129.00" class="green">xx</tspan><tspan x="192.75" class="blue">.::</tspan><tspan x="204.00" class="green">xxxx</tspan><tspan x="222.75" class="blue">:::::::::::::::::::::::</tspan></text>
+    <text y="336.00"><tspan x="31.50" class="blue">:::::::::::::::::::::::::.&#x27;</tspan><tspan x="132.75" class="green">xxx</tspan><tspan x="144.00" class="blue">..</tspan><tspan x="181.50" class="blue">.::</tspan><tspan x="192.75" class="green">xxxxxxx</tspan><tspan x="222.75" class="blue">::::::::::::::::::::&#x27;</tspan></text>
+    <text y="342.35"><tspan x="31.50" class="blue">&#x27;:::::::::::::::::::::::::</tspan><tspan x="132.75" class="green">xxxxxxxxxxxxxxxxxxxxxxx</tspan><tspan x="222.75" class="blue">:::::::::::::::::&#x27;</tspan></text>
+    <text y="348.70"><tspan x="39.00" class="blue">&#x27;:::::::::::::::::::::::</tspan><tspan x="132.75" class="green">xxxxxxxxxxxxxxxxxxxxxxx</tspan><tspan x="222.75" class="blue">:::::::::::::::&#x27;</tspan></text>
+    <text y="355.05"><tspan x="54.00" class="blue">&#x27;:::::::::::::::::::_</tspan><tspan x="132.75" class="green">xxxxxx</tspan><tspan x="155.25" class="blue">::&#x27;&#x27;&#x27;::</tspan><tspan x="181.50" class="green">xxxxxxxxxx</tspan><tspan x="222.75" class="blue">&#x27;::::::::::::&#x27;</tspan></text>
+    <text y="361.40"><tspan x="72.75" class="blue">&#x27;&#x27;:.::::::::::&#x27;</tspan><tspan x="219.00" class="blue">`._&#x27;::::::&#x27;&#x27;</tspan></text>
+  </g>
+
+  <!-- Right Column: Fastfetch Output -->
+  <g class="mono">
+    <text x="340" y="90"><tspan class="green-b">empty</tspan><tspan class="muted">@</tspan><tspan class="green-b">Thinkpad-X13</tspan></text>
+    <text x="340" y="108" class="muted">------------------</text>
+    <text x="340" y="126"><tspan class="green-b">User</tspan><tspan class="muted">:</tspan><tspan x="388.9" class="white">David Alex (Empty7k)</tspan></text>
+    <text x="340" y="144"><tspan class="green-b">Role</tspan><tspan class="muted">:</tspan><tspan x="388.9" class="white">Software Engineering Intern @ DBC Company</tspan></text>
+    <text x="340" y="162"><tspan class="green-b">Tutor</tspan><tspan class="muted">:</tspan><tspan x="397.1" class="white">Python Tutor @ Kodland</tspan></text>
+    <text x="340" y="180"><tspan class="green-b">Education</tspan><tspan class="muted">:</tspan><tspan x="429.6" class="white">B.S. in Software Engineering (In Progress)</tspan></text>
+    <text x="340" y="198"><tspan class="green-b">Degree</tspan><tspan class="muted">:</tspan><tspan x="405.2" class="white">A.S. in Systems Analysis and Development (ADS)</tspan></text>
+    <text x="340" y="216" class="muted">------------------</text>
+    <text x="340" y="234"><tspan class="green-b">OS</tspan><tspan class="muted">:</tspan><tspan x="372.6" class="white">CachyOS x86_64 (Linux 7.3)</tspan></text>
+    <text x="340" y="252"><tspan class="green-b">Host</tspan><tspan class="muted">:</tspan><tspan x="388.9" class="white">ThinkPad X13 Gen 2</tspan></text>
+    <text x="340" y="270"><tspan class="green-b">Shell</tspan><tspan class="muted">:</tspan><tspan x="397.1" class="white">fish 4.9.3 / kitty 0.49.2</tspan></text>
+    <text x="340" y="288"><tspan class="green-b">DE</tspan><tspan class="muted">:</tspan><tspan x="372.6" class="white">KDE Plasma 6.8 (Wayland)</tspan></text>
+    <text x="340" y="306"><tspan class="green-b">Stack</tspan><tspan class="muted">:</tspan><tspan x="397.1" class="white">Python, Java, C#, JS, React, Spring, SQL, Docker</tspan></text>
+    <text x="340" y="324" class="muted">------------------</text>
+    <text x="340" y="342"><tspan class="green-b">Protocol</tspan><tspan class="muted">:</tspan><tspan x="421.5" class="white">IPv4 / Wired</tspan></text>
+    <text x="340" y="360"><tspan class="green-b">Status</tspan><tspan class="muted">:</tspan><tspan x="405.2" class="blue">Connected to the Wired</tspan></text>
+  </g>
+</svg>
